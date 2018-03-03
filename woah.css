@@ -386,8 +386,47 @@
     transform: translate(-141, -126) scale(6.5);
   }
   90% {
-    transform: translate(141, 126) scale(20.0);
+    transform: translate(141, 126) scale(7.0);
   }
+  91% {
+    transform: translate(-141, -126) scale(8.0);
+  }
+  92% {
+    transform: translate(141, 126) scale(9.0);
+  }
+  93% {
+    transform: translate(-141, -126) scale(10);
+  }
+  94% {
+    transform: translate(141, 126) scale(13);
+  }
+  95% {
+    transform: translate(-141, -126) scale(16);
+  }
+  93% {
+    transform: translate(141, 126) scale(19);
+  }
+  94% {
+    transform: translate(-141, -126) scale(21);
+  }
+  95% {
+    transform: translate(141, 126) scale(34);
+  }
+  96% {
+    transform: translate(-141, -126) scale(47);
+  }
+  97% {
+    transform: translate(141, 126) scale(57);
+  }
+  98% {
+    transform: translate(-141, -126) scale(69);
+  }
+  99% {
+    transform: translate(141, 126) scale(76);
+  }
+
+
+
   100% {
     transform: translate(-141, -126) scale(100.0);
   }
@@ -453,44 +492,33 @@
     opacity: 90%;
     transform: translate3d(0,0,0) rotate(0deg);
   }
-
   10% {
     transform: translate3d(200px, -140px, 0) rotate(1080deg);
   }
-
   20% {
     transform: translate3d(-200px, 140px, 0) rotate(-160deg);
   }
-
   30% {
     transform: translate3d(-200px, -140px, 0) rotate(340deg);
   }
-
   40% {
     transform: translate3d(-200px, 140px, 0) rotate(-720deg);
   }
-
   50% {
     transform: translate3d(200px, 140px, 0) rotate(120deg) scale(1.2);
   }
-
   60% {
     transform: translate3d(0px, 0px, 100px) rotate(1080deg) scale(1.5);
   }
-
   65% {
     transform: translate3d(0px, 0px, 200px) rotate(-1080deg) scale(2.0);
   }
-
   90% {
     transform: translate3d(0px, 0px, 600px) rotate(6080deg) scale(5.0);
   }
-
   100% {
     transform: translate3d(0px, 0px, 0px) rotate(0deg) scale(1.0);
   }
-
-
 }
 
  .rotateComplex {
@@ -499,3 +527,79 @@
    animation-name: rotateComplex;
    animation-duration: 5s;
  }
+
+ /**
+  * flyOut
+  * - Flies out
+  */
+  @keyframes flyOut {
+
+    1% {
+      transform: translate3d(0,0,0) scale(1);
+    }
+
+    10%, 15% {
+      transform: translate3d(0,20px,100px) rotateZ(50deg;);
+    }
+
+    20% {
+      transform: translate3d(0,100px,400px) rotateX(90deg);
+    }
+    30% {
+      transform: translate3d(300px,0px,100px) rotateX(95deg);
+    }
+    40% {
+      transform: translate3d(-600px,-200px,0px) rotateX(80deg);
+    }
+    60% {
+      transform: translate3d(2000px,-2000px,0px) rotateX(0deg);
+    }
+    70% {
+      transform: translate3d(-2000px, 2000px, 0px) rotateX(60deg) scale(5);
+    }
+    80% {
+      transform: translate3d(0,4000px,0px);
+    }
+    85% {
+      transform: translate3d(-0px,-0px,0px) scale(.07);
+    }
+    100% {
+      transform: translate3d(2000px,-2000px,0px);
+      display: none;
+    }
+}
+
+.flyOut {
+  animation-timing-function: ease-out;
+  transform-origin: bottom center;
+  animation-name: flyOut;
+  animation-duration: 5s;
+}
+
+/**
+ * flyOut
+ * - Flies out
+ */
+@keyframes starWars {
+  0% {
+    transform: translate3d(0,500px,0) rotateX(-60deg) scale(2);
+  }
+
+  50 {
+    transform: translate3d(0,0px,0) scale(1.6) rotateX(0deg);
+  }
+
+  99.9% {
+    transform: translate3d(0, -1000px, 0) rotateX(60deg) scale(.19);
+  }
+  100% {
+    display: none;
+  }
+}
+
+.starWars {
+  animation-timing-function: ease-out;
+  transform-origin: bottom center;
+  animation-name: starWars;
+  animation-duration: 10s;
+}
