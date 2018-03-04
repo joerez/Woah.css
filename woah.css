@@ -527,6 +527,57 @@
    animation-name: rotateComplex;
    animation-duration: 5s;
  }
+ /**
+  * rotateComplexOut
+  * - Comes in style, this isn't your oridinary entrance
+  */
+ @keyframes rotateComplexOut {
+   1% {
+     opacity: 90%;
+     transform: translate3d(0,0,0) rotate(0deg);
+   }
+   10% {
+     transform: translate3d(200px, -140px, 0) rotate(1080deg);
+   }
+   20% {
+     transform: translate3d(-200px, 140px, 0) rotate(-160deg);
+   }
+   30% {
+     transform: translate3d(-200px, -140px, 0) rotate(340deg);
+   }
+   40% {
+     transform: translate3d(-200px, 140px, 0) rotate(-720deg);
+   }
+   50% {
+     transform: translate3d(200px, 140px, 0) rotate(120deg) scale(1.2);
+   }
+   60% {
+     transform: translate3d(0px, 0px, 100px) rotate(1080deg) scale(1.5);
+   }
+   65% {
+     transform: translate3d(0px, 0px, 200px) rotate(-1080deg) scale(2.0);
+   }
+   90% {
+     transform: translate3d(0px, 0px, 600px) rotate(6080deg) scale(5.0);
+   }
+   99% {
+     transform: translate3d(0px, 0px, 0px) rotate(0deg) scale(.01);
+     opacity: 100%
+   }
+   100% {
+     display: none;
+     transform: translate3d(0px, 0px, 0px) rotate(0deg) scale(0);
+     opacity: 0%;
+   }
+
+ }
+
+  .rotateComplexOut {
+    animation-timing-function: ease-out;
+    transform-origin: bottom center;
+    animation-name: rotateComplexOut;
+    animation-duration: 5s;
+  }
 
  /**
   * flyOut
@@ -577,8 +628,52 @@
 }
 
 /**
- * flyOut
- * - Flies out
+ * blackMirror
+ * - Woah
+ */
+@keyframes blackMirror {
+  1% {
+    transform: translate3d(0,0,0);
+  }
+
+  50% {
+    transform: translate3d(200px,0,0);
+    background: rgba(0,0,0,.8);
+  }
+
+  99% {
+    transform: translate3d(-200px,0,0);
+    background: rgba(0,0,0,.8);
+  }
+
+  100% {
+    transform: translate3d(0,0,0);
+  }
+
+}
+
+
+
+ .blackMirror {
+   animation-timing-function: ease-out;
+   transform-origin: bottom center;
+   animation-name: blackMirror;
+   animation-duration: .01s;
+   animation-iteration-count: 1000;
+ }
+
+
+
+
+
+
+
+/****************WOW***************/
+
+
+/**
+ * starWars
+ * - Starwars sequence
  */
 @keyframes starWars {
   0% {
