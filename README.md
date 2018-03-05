@@ -14,7 +14,7 @@ Download woah.css and put it in your documents ```head```.
 To animate an element, simply add the class ```woah``` followed by whichever animation you choose. Example:
 
 ```
-<h1 class="woah wowzors"Hello world</h1>
+<h1 class="woah wowzors">Hello world</h1>
 ```
 
 # Different types of animations
