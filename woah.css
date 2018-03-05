@@ -573,7 +573,7 @@
  }
 
   .rotateComplexOut {
-    animation-timing-function: ease-out;
+    animation-timing-function: linear;
     transform-origin: bottom center;
     animation-name: rotateComplexOut;
     animation-duration: 5s;
@@ -816,7 +816,102 @@
   }
 
 
+  /**
+   * spin3D
+   * - Spins in 3D
+   */
+  @keyframes spin3D {
 
+    15% {
+      transform: rotateY(180deg) scale(2);
+    }
+
+    30% {
+      transform: rotateX(360deg) rotateY(180deg) skewX(50deg) scale(2);
+    }
+
+    45% {
+      transform: rotateX(480deg) rotateY(360deg) skewX(-50deg) skewY(0deg)  scale(1.5);
+    }
+
+    60% {
+      transform: rotateX(0deg) rotateY(0deg) skewX(0deg) skewY(0deg)  scale(2);
+    }
+
+    70% {
+      transform: rotateX(0deg) rotateY(0deg) skewX(0deg) skewY(0deg)  scale(3);
+    }
+
+    80% {
+      transform: rotateX(0deg) rotateY(540deg) skewX(0deg) skewY(0deg)  scale(3);
+    }
+
+    90% {
+      transform: rotateX(180deg) rotateY(1080deg) skewX(0deg) skewY(0deg)  scale(.3);
+    }
+
+    97% {
+      transform: rotateX(40deg) rotateY(80deg) skewX(0deg) skewY(0deg)  scale(2);
+    }
+
+
+  }
+
+
+
+   .spin3D {
+     animation-timing-function: linear;
+     transform-origin: bottom center;
+     animation-name: spin3D;
+     animation-duration: 5s;
+   }
+
+   /**
+    * simpleEntrance
+    * - enter in simply
+    */
+   @keyframes simpleEntrance {
+
+     0% {
+       opacity: 0%;
+       transform: translate3d(-2000px,500px,0) scale(10);
+     }
+
+     1% {
+       opacity: 100%
+     }
+
+     40% {
+       transform: translate3d(2000px,0px,0) scale(5);
+     }
+     50% {
+       transform: translate3d(-2000px,-100px,0) scale(2);
+     }
+     60% {
+       transform: translate3d(2000px,100px,0) scale(1);
+     }
+     70% {
+       transform: translate3d(-2000px,400px,0) scale(.1);
+     }
+
+     75% {
+       transform: translate3d(0px,0px,0) scale(.1);
+     }
+
+     80% {
+       transform:  rotate(360deg) translateX(150px) rotate(-360deg)
+     }
+
+   }
+
+
+
+    .simpleEntrance {
+      animation-timing-function: linear;
+      transform-origin: bottom center;
+      animation-name: simpleEntrance;
+      animation-duration: 10s;
+    }
 
 
 
