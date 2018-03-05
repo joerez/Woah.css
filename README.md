@@ -36,3 +36,4 @@ These are very basic.
  - Add more normie animations
  - Add more wow animations
  - Add more woah animations
+ - Cross browser functionality
