@@ -319,12 +319,12 @@
 
   50% {
     transform: translate3d(200px,0,0);
-    background: rgba(0,0,0,.8);
+    background: rgba(0,0,0,1);
   }
 
   99% {
     transform: translate3d(-200px,0,0);
-    background: rgba(0,0,0,.8);
+    background: rgba(0,0,0,1);
   }
 
   100% {
