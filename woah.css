@@ -19,6 +19,10 @@
   animation-fill-mode: both;
 }
 
+.woah.infinite {
+  animation-iteration-count: infinite;
+}
+
 
 /**
  * Wowzors
