@@ -3,13 +3,14 @@ CSS Animation Library for eccentric web developers.
 View demo here: http://www.joerezendes.com/projects/Woah.css/
 
 ## How to use
-Download woah.css and put it in your documents ```head```.
+Download woah.css and put it in your documents ```head```. 
 
 ```
 <head>
   <link rel="stylesheet" href="animate.min.css">
 </head>
 ```
+Due to some (Overly) Elaborate animations, like scaleOut, you need to include this link after your main stylesheet.
 
 ## Adding Animations
 To animate an element, simply add the class ```woah``` followed by whichever animation you choose. Example:
