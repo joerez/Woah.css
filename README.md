@@ -18,6 +18,11 @@ To animate an element, simply add the class ```woah``` followed by whichever ani
 <h1 class="woah wowzors">Hello world</h1>
 ```
 
+## Iterate Animations Forever
+Want to repeat your animations for all of eternity? Use the infinite class. Example:
+```
+<h1 class="woah wowzors infinite">Woah</h1>
+```
 # Different types of animations
 Woah.css has three different types of animations to choose from.
 
