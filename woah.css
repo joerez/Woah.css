@@ -475,6 +475,46 @@
     }
 
 
+    /**
+     * scaleOut
+     * - Big Scale Out
+     */
+    @keyframes scaleOut {
+
+    from {
+        transform: scale(.1) translate3d(0,0px,0);
+      }
+
+      80% {
+        transform: scale(4) translate3d(0, 70px, 0);
+        box-shadow: 0px 200px 200px 200px rgba(0,0,0,1);
+      }
+
+
+
+      100% {
+        transform: scale(0) translate3d(0,0px,0);
+        visibility: hidden;
+      }
+
+    }
+
+
+
+
+
+     .scaleOut {
+       animation-timing-function: linear;
+       transform-origin: bottom center;
+       animation-name: scaleOut;
+       animation-duration: 3s;
+       background: url('https://i.imgur.com/XB0kRsy.gif');
+       background-size: cover;
+       background-repeat: no-repeat;
+       background-position: center;
+     }
+
+
 
 /****************WOW***************/
 
