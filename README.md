@@ -2,6 +2,13 @@
 CSS Animation Library for eccentric web developers. 
 View demo here: http://www.joerezendes.com/projects/Woah.css/
 
+## Installation
+To install via Bower, simply do the following:
+```
+$ bower install woah.css --save
+```
+
+
 ## How to use
 Download woah.css and put it in your documents ```head```. 
 
