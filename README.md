@@ -48,8 +48,5 @@ These are very basic.
 
 ## To Do List
  - Add CSS Variables to easily change duration with inline styles
- - Add class that repeats animations forever
- - Add more normie animations
- - Add more wow animations
- - Add more woah animations
+ - More animations that make use of pseudo elements, Ex: dealWithIt
  - Cross browser functionality
