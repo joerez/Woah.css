@@ -675,6 +675,89 @@
       }
 
 
+      /**
+       * fedoraTip
+       * - Tip your fedora.
+       */
+      @keyframes fedoraTip {
+
+        1% {
+          transform: translate3d(-80px,60px,0) scale(.8);
+          opacity: 1;
+        }
+
+
+        40% {
+          transform: translate3d(-80px,60px,0) rotate(-30deg) scale(.8);
+          opacity: 1;
+        }
+
+        60% {
+          transform: translate3d(-80px,60px,0) rotate(0deg) scale(.8);
+          opacity: 1;
+        }
+
+
+        to {
+          transform: translate3d(-80px,-2000px,0) rotate(180deg) scale(.8);
+          visibility: hidden;
+          opacity: 1;
+        }
+
+      }
+
+      @keyframes fedoraTipNorm {
+
+        1% {
+
+        }
+
+        20% {
+          transform: translate3d(0,0px,0) rotate(-5deg) scale(1);
+          opacity: 1;
+          box-shadow: 0px 5px 10px rgba(0,0,0,1);
+        }
+
+        70% {
+          transform: translate3d(0,0px,0) rotate(0deg) scale(1);
+          opacity: 1;
+        }
+
+
+
+      }
+
+
+      .fedoraTip::after {
+        z-index: 5;
+        width: 450px;
+        content: '';
+        background: url('https://vignette.wikia.nocookie.net/roblox/images/3/39/ROBLOX_Black_Pinstripe_Fedora.png/revision/latest?cb=20170213154343');
+        background-repeat: no-repeat;
+        animation-timing-function: ease-in-out;
+        transform-origin: bottom center;
+        animation-name: fedoraTip;
+        animation-duration: 5s;
+        animation-fill-mode: forwards;
+        vertical-align: baseline;
+        position: absolute;
+        top: -200%;
+        right: -50%;
+        bottom: -50%;
+        left: -50%;
+
+      }
+
+       .fedoraTip {
+         /*position: absolute;*/
+         animation-timing-function: ease-in-out;
+         transform-origin: bottom center;
+         animation-name: fedoraTipNorm;
+         animation-duration: 5s;
+       }
+
+
+
 
 /****************WOW***************/
 
