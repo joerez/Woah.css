@@ -37,19 +37,16 @@ Want to repeat your animations for all of eternity? Use the infinite class. Exam
 # Different types of animations
 Woah.css has three different types of animations to choose from.
 
-## Woah animations
-These are very eccentric and barely practical, but are very fun and showy.
+- Woah animations
+-- These are very eccentric and barely practical, but are very fun and showy.
 
-## Wow animations
-These are still a little eccentric, but could very well be used in normal websites. 
+- Wow animations
+-- These are still a little eccentric, but could very well be used in normal websites. 
 
-## Normie animations
-These are very basic.
+- Normie animations
+-- These are very basic.
 
 ## To Do List
  - Add CSS Variables to easily change duration with inline styles
- - Add class that repeats animations forever
- - Add more normie animations
- - Add more wow animations
- - Add more woah animations
+ - More animations that make use of pseudo elements, Ex: dealWithIt
  - Cross browser functionality
