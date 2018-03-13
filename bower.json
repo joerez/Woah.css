@@ -1,0 +1,22 @@
+{
+  "name": "woah.css",
+  "homepage": "https://github.com/joerez/Woah.css",
+  "authors": [
+    "Joe Rezendes <rezenbiz@gmail.com>"
+  ],
+  "description": "CSS Animations for eccentric developers",
+  "main": "woah.css",
+  "keywords": [
+    "CSS",
+    "Animation",
+    "Library"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

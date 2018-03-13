@@ -1,0 +1,14 @@
+{
+  "name": "woah.css",
+  "homepage": "https://github.com/joerez/Woah.css",
+  "_release": "07660d8435",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "07660d84353a05331d067823bfce7392b0aa0d5f"
+  },
+  "_source": "https://github.com/joerez/Woah.css.git",
+  "_target": "*",
+  "_originalSource": "woah.css",
+  "_direct": true
+}

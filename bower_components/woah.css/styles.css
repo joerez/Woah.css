@@ -1,0 +1,67 @@
+body {
+  background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+              linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+              linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.box {
+  height: 150px;
+  width: 150px;
+  background: linear-gradient(30deg, #2c3e50, #34495e);
+  border-radius: 12px;
+  box-shadow: 0px 10px 40px rgba(255, 255, 200,.3);
+  text-align: center;
+  vertical-align: middle;
+  line-height: 150px;
+  font-size: 24px;
+}
+
+.animatebox {
+  height: 100vh;
+  width: 100%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.picker {
+  background-color: white;
+  height: 32.5px;
+  border: solid 1px black;
+  color: black;
+}
+
+.subButton {
+  background-color: white;
+  border: solid 1px black;;
+  border-radius: 4px;
+  margin: 5px;
+  padding: 5px;
+  color: black;
+}
+
+h1 {
+  font-size: 450%;
+  color: white;
+}
+
+a .btn {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  right: 50%;
+}
+
+.footer {
+  position: absolute;
+  left: 0;
+  bottom: 10px;
+  color: white;
+  text-align: center;
+  width: 100%;
+}
