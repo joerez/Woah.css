@@ -601,13 +601,26 @@
        }
 
 
-       50% {
+       30% {
          transform: translate3d(0,160px,0) scale(1);
          opacity: 1;
        }
 
-       to {
+       70% {
          transform: translate3d(0,160px,0) scale(1);
+         opacity: 1;
+       }
+
+       85% {
+         transform: translate3d(0,160px,0) scale(1);
+         opacity: 1;
+       }
+
+       99% {
+         transform: translate3d(0,-2000px,0) scale(1);
+       }
+
+       to {
          visibility: hidden;
          opacity: 0;
        }
@@ -620,14 +633,22 @@
 
        }
 
-       50% {
+       30% {
          transform: translate3d(0,0px,0) scale(1);
          opacity: 1;
        }
 
-       60% {
+       40% {
          transform: rotate(10deg);
          opacity: 1;
+       }
+
+       50% {
+         transform: rotate(-10deg);
+       }
+
+       60% {
+         transform: rotate(10deg);
        }
 
        70% {
@@ -635,12 +656,9 @@
        }
 
        80% {
-         transform: rotate(10deg);
+         transform: rotate(0deg);
        }
 
-       90% {
-         transform: rotate(-10deg);
-       }
 
      }
 
@@ -671,7 +689,7 @@
         animation-timing-function: ease-in-out;
         transform-origin: bottom center;
         animation-name: dealWithItNorm;
-        animation-duration: 3s;
+        animation-duration: 5s;
       }
 
 
