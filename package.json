@@ -1,0 +1,24 @@
+{
+  "name": "woah.css",
+  "version": "1.3.0",
+  "description": "woah.css is a CSS Animation library for ecentric developers",
+  "main": "woah.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joerez/Woah.css.git"
+  },
+  "keywords": [
+    "css",
+    "animation",
+    "library"
+  ],
+  "author": "Joe Rezendes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joerez/Woah.css/issues"
+  },
+  "homepage": "https://github.com/joerez/Woah.css#readme"
+}

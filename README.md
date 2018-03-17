@@ -2,10 +2,16 @@
 
 
 # Woah.css
-CSS Animation Library for eccentric web developers. 
+CSS Animation Library for eccentric web developers.
 View demo here: http://www.joerezendes.com/projects/Woah.css/
 
 ## Installation
+
+To install via npm, simply do the following:
+```
+$ npm install woah.css --save
+```
+
 To install via Bower, simply do the following:
 ```
 $ bower install woah.css --save
@@ -13,7 +19,7 @@ $ bower install woah.css --save
 
 
 ## How to use
-Download woah.css and put it in your documents ```head```. 
+Download woah.css and put it in your documents ```head```.
 
 ```
 <head>
@@ -41,7 +47,7 @@ Woah.css has three different types of animations to choose from.
 -- These are very eccentric and barely practical, but are very fun and showy.
 
 - Wow animations
--- These are still a little eccentric, but could very well be used in normal websites. 
+-- These are still a little eccentric, but could very well be used in normal websites.
 
 - Normie animations
 -- These are very basic.
