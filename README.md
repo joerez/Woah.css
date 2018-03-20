@@ -23,7 +23,7 @@ Download woah.css and put it in your documents ```head```.
 
 ```
 <head>
-  <link rel="stylesheet" href="woah.css">
+  <link rel="stylesheet" href="/woah.css">
 </head>
 ```
 Due to some (Overly) Elaborate animations, like scaleOut, you need to include this link after your main stylesheet.
