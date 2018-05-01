@@ -1,4 +1,4 @@
-![Woah!!!](https://image.ibb.co/i3QtA7/INTRODUCING.png)
+<p align="center"><img alt="Woah!!!" src="https://image.ibb.co/i3QtA7/INTRODUCING.png"></p>
 
 
 # Woah.css
