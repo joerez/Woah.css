@@ -1,4 +1,4 @@
-<p align="center"><img alt="Woah!!!" src="https://image.ibb.co/i3QtA7/INTRODUCING.png"></p>
+<p align="center"><img alt="Woah!!!" src="https://github.com/joerez/Woah.css/blob/master/Woah.css.gif?raw=true"></p>
 
 
 # Woah.css
