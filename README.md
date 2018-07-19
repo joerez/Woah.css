@@ -1,10 +1,10 @@
-![Woah!!!](https://image.ibb.co/i3QtA7/INTRODUCING.png)
+<p align="center"><img alt="Woah!!!" src="https://image.ibb.co/i3QtA7/INTRODUCING.png"></p>
 
 
 # Woah.css
 CSS Animation Library for eccentric web developers.
 View demo here: http://www.joerezendes.com/projects/Woah.css/
-
+Write up: https://medium.com/@joerezendes_91375/need-stars-on-github-21a2fab3550d
 ## Installation
 
 To install via npm, simply do the following:
@@ -23,7 +23,7 @@ Download woah.css and put it in your documents ```head```.
 
 ```
 <head>
-  <link rel="stylesheet" href="animate.min.css">
+  <link rel="stylesheet" href="/woah.css">
 </head>
 ```
 Due to some (Overly) Elaborate animations, like scaleOut, you need to include this link after your main stylesheet.
