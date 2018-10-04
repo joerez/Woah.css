@@ -3,8 +3,12 @@
 
 # Woah.css
 CSS Animation Library for eccentric web developers.
+
 View demo here: http://www.joerezendes.com/projects/Woah.css/
+
 Write up: https://medium.com/@joerezendes_91375/need-stars-on-github-21a2fab3550d
+
+Official documentation: http://www.joerezendes.com/projects/woah.css/docs/docs/#/
 ## Installation
 
 To install via npm, simply do the following:
