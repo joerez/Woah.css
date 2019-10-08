@@ -63,6 +63,6 @@ Woah.css has three different types of animations to choose from.
  
  ## Vue Woah
  
- Someone also ported Woah.css over to Vue. Check it out here:
+ @andrewgardhouse also ported Woah.css over to Vue. Check it out here:
  
  https://github.com/AndrewGardhouse/vue-woah
