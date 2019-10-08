@@ -60,3 +60,9 @@ Woah.css has three different types of animations to choose from.
  - Add CSS Variables to easily change duration with inline styles
  - More animations that make use of pseudo elements, Ex: dealWithIt
  - Cross browser functionality
+ 
+ ## Vue Woah
+ 
+ Someone also ported Woah.css over to Vue. Check it out here:
+ 
+ https://github.com/AndrewGardhouse/vue-woah
